@@ -8,7 +8,7 @@ const TopBar = (props) => {
     return(
         <div className="img12">
              
-            <div ><img src={props.image} className="img121" /></div>
+            <div ><img src={props.image} alt="user.img" className="img121" /></div>
           <div> <p>{props.name}</p></div> 
          
         </div>

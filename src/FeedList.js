@@ -7,7 +7,7 @@ const FeedList = (props) => {
     return(
         <div className="img21" >
          
-           <div><img src={props.image} className="img211"/></div> 
+           <div><img src={props.image} alt="user" className="img211"/></div> 
            <div><p>{props.name}</p></div>
            <div><p>{props.amount}</p></div>
            <div><p>{props.text}</p></div>       

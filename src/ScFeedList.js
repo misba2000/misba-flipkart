@@ -7,7 +7,7 @@ const ScFeedList = (props) => {
     return(
         <div className="feed" >
          
-           <div><img src={props.image} className="feed12"/></div> 
+           <div><img src={props.image} alt="user.img" className="feed12"/></div> 
            <div><p>{props.name}</p></div>
            <div><p>{props.amount}</p></div>
            <div><p>{props.text}</p></div>       
